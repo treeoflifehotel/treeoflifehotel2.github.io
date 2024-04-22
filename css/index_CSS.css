@@ -1,0 +1,305 @@
+/*-background-image--------------------------------------------------------------------------------------------------------------------------------*/
+
+body{
+	margin: 0;
+	overflow-x: hidden; 
+	background-color: #EFFFEF;
+}
+
+#intdisplay{
+	background-image: url('../images/Hotel_Front.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: static;
+	background-size: cover;
+}
+
+/*-header-bar--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#headerbar{
+	background-color: rgba(0,0,0,0.1);
+	overflow: hidden;
+	padding: 0.6vw;
+}
+
+#logo{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 50%;
+	float: left;
+
+}
+#TOLbutton{
+	text-decoration: none;
+	color: white;
+	font-size: 1.65vw;
+	float: left;
+	text-align: center;
+	padding: 1.5vw 1.4vw;
+	text-decoration: none;
+	font-family: gill sans, sans-serif;
+	font-weight: bolder;
+	letter-spacing: 0.15vw;
+}
+.buttons{
+	text-decoration: none;
+	color: white;
+	font-size: 1.4vw;
+	float: right;
+	text-align: center;
+	padding: 1.6vw 1.5vw;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bolder;
+}
+
+a.buttons:hover{
+	background-color: rgba(0,0,0,0.11);
+	}
+
+
+/*-on-top-of-bg-image--------------------------------------------------------------------------------------------------------------------------------*/
+
+#rectangle1{
+	width: 8%;
+	height: 0.7vw;
+	border-color: #24AA1A;
+	background-color: #24AA1A;
+}
+.h1{
+	font-family: rockwell, serif;
+	text-align: center;
+	color: white;
+	font-size: 4vw;
+	text-align: center;
+	font-weight: 500;
+}
+.h2{
+	font-family: candara, sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 2vw;
+	text-align: center;
+	font-weight: 500;
+}
+#rectangle2 {
+	height: 7vw;
+	border-color: #24AA1A;
+	background-color: #24AA1A;
+	margin: 0;
+}
+
+
+/*-first-row---------------------------------------------------------------------------------------------------------------------------------*/
+
+.welcome{
+	overflow: hidden;
+	text-align: right;
+	color: black;
+	font-family: candara;
+
+	img{
+		float: right;
+		width: 50%;
+	}
+	#welcomehead{
+		position: relative;
+		right: 5%;
+		font-size: 2.1vw;
+		font-weight: bolder;
+		opacity: 0.7;
+	}
+	#welcomebody{
+		position: relative;
+		right: 5%;
+		font-family: candara;
+		font-size: 1.4vw;
+		font-weight: 500;
+		opacity: 0.7;
+	}
+	button{
+		position: relative;
+		right: 5%;
+		background-color: #24AA1A;
+		border-color: #24AA1A;
+		margin-top: 0.7vw;
+	}
+	a{
+		color: white;
+		font-size: 1.3vw;
+		text-decoration: none;
+		padding: 0.2vw;
+	}
+}
+
+/*-second-row---------------------------------------------------------------------------------------------------------------------------------*/
+
+.ourrooms{
+	overflow: hidden;
+	text-align: left;
+	font-family: candara;
+
+	img{
+		float: left;
+		width: 50%;
+	}
+	#roomshead{
+		position: relative;
+		left: 5%;
+		font-size: 2.1vw;
+		font-weight: bolder;
+		opacity: 0.7;
+	}
+	#roomsbody{
+		position: relative;
+		left: 5%;
+		font-size: 1.4vw;
+		font-weight: 500;
+		opacity: 0.7;
+	}
+	button{
+		position: relative;
+		left: 5%;
+		background-color: #24AA1A;
+		border-color: #24AA1A;
+		margin-top: 0.7vw;
+	}
+	a{
+		color: white;
+		font-size: 1.3vw;
+		text-decoration: none;
+		padding: 0.2vw;
+	}
+}
+
+/*-third-row---------------------------------------------------------------------------------------------------------------------------------*/
+
+.amenities{
+	overflow: hidden;
+	text-align: right;
+	color: black;
+	font-family: candara;
+
+	img{
+		float: right;
+		width: 50%;
+	}
+	#amenitieshead{
+		position: relative;
+		right: 5%;
+		font-size: 2.1vw;
+		font-weight: bolder;
+		opacity: 0.7;
+	}
+	#amenitiesbody{
+		position: relative;
+		right: 5%;
+		font-family: candara;
+		font-size: 1.4vw;
+		font-weight: 500;
+		opacity: 0.7;
+	}
+	button{
+		position: relative;
+		right: 5%;
+		background-color: #24AA1A;
+		border-color: #24AA1A;
+		margin-top: 0.7vw;
+	}
+	a{
+		color: white;
+		font-size: 1.3vw;
+		text-decoration: none;
+		padding: 0.2vw;
+	}
+}
+
+
+/*-footer---------------------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+	background-color: #24AA1A;
+	margin-bottom: 0;
+	padding-bottom: 6vw;
+	color: white;
+	letter-spacing: 0.15vw;
+}
+
+.column{
+	font-family: 'Lucida', monospace;
+	font-size: 1.1vw;
+	overflow: hidden;
+	font-weight: 500;
+	float: left;
+	text-align: center;
+	line-height: 1.5vw;
+}
+
+.left{
+	width: 35%;
+}
+
+.left img{
+	width: 30%;
+	height: 30%;
+	position: relative;
+	left: 50%;
+	border-radius: 50%;
+	float: left;
+}
+
+.middle{
+	width: 30%;
+}
+.middle span{
+	font-size: 2vw;
+	font-family: rockwell, serif;
+}
+
+.right1{
+	width: 6%;
+	height: 1px;
+}
+.right2{
+	width: 11%;
+	height: 1px;
+}
+.rightmid{
+	width: 6%;
+}
+	
+.FBIcon{
+	width: 58px;
+	height: 58px;
+	border-radius: 50%;
+	background: url('../images/socmed_spritesheet.png') no-repeat 0px 0px;
+}
+.YTIcon{
+	width: 58px;
+	height: 58px;
+	border-radius: 50%;
+	background: url('../images/socmed_spritesheet.png') no-repeat 0px -120px;
+}
+.InstaIcon{
+	width: 58px;
+	height: 58px;
+	border-radius: 50%;
+	background: url('../images/socmed_spritesheet.png') no-repeat 0px -60px;
+}
+
+.FBIcon:hover {
+	background: url('../images/socmed_spritesheet.png') no-repeat -60px -120px;
+}
+.YTIcon:hover{
+	background: url('../images/socmed_spritesheet.png') no-repeat -60px 0px;
+}
+.InstaIcon:hover {
+	background: url('../images/socmed_spritesheet.png') no-repeat -60px -60px;
+}
+
+footer:after{
+	content: "";
+	display: table;
+	clear: both;
+}
