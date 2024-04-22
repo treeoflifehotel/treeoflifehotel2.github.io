@@ -76,8 +76,110 @@ a.buttons:hover{
 	text-align: center;
 	fon/*-footer---------------------------------------------------------------------------------------------------------------------------------*/
 
+/*-Provided Equipments List---------------------------------------------------------------------------------------------------------------------------------*/
 
+.equipments{
+	background-color: rgba(25, 111, 1, 0.9);
+	text-align: center;
+	font-family: candara;
+	font-size: 1.2vw;
+	padding: 1vw;
+	color: rgba(255, 255, 255, 0.9);
+	line-height: 2vw;
+}
+.equipments span{
+	font-size: 1.9vw;
+	font-weight: 550;
+}
 
+/*-Function Halls---------------------------------------------------------------------------------------------------------------------------------*/
+
+.FunctionHalls{
+	position:relative;
+	background-color: rgba(36, 170, 26, 0.95);
+	padding-bottom: 2.5vw;
+}
+
+.FunctionHallsBody{
+	overflow: hidden;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 1.7vw;
+	line-height: 1.5;
+	font-weight: 500;
+	font-family: candara;
+	z-index: -99;
+}
+.FunctionHallsBody h1{
+	font-size: 2.9vw;
+	line-height: 1.2vw;
+}
+
+.FunctionHallsBody span{
+	font-size: 2vw;
+	font-weight: 600;
+}
+
+#MedHallBody {
+	width: 50%;
+	float: left;
+}
+#BigHallBody{
+	width: 50%;
+	float: right;
+}
+
+.FunctionHallsImg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0.75vw 0;
+}
+.FunctionHallsImg img{ 
+	width: 49vw;
+	transition: 1.7s 0.3s;
+	transition-timing-function: ease-in-out;
+	margin: 0;
+	z-index: 1;
+	border: 0.13vw ridge lightgrey;
+}
+#MedHall{
+	position: relative;
+	left: 0;
+}
+#BigHall{
+	position: relative;
+	right: -1vw;
+}
+#MedHall:hover{
+	transform:translate(50vw);
+	float: left;
+	z-index: 99;
+}
+#BigHall:hover{
+	transform: translate(-50vw);
+	float: right;
+	z-index: 99;
+}
+
+/*-Contact Us Button---------------------------------------------------------------------------------------------------------------------------------*/
+
+#buttonbg{
+	width: 100%;
+	background-color: rgba(36, 170, 26, 0.95);
+	padding: 3.3vw 0;
+}
+button{
+	background-color: white;
+	border-color: white;
+}
+button > a{
+	font-family: candara;
+	color: #24AA1A;
+	font-size: 1.8vw;
+	text-decoration: none;
+	padding: 0.3vw;
+}
 
  
 footer{
